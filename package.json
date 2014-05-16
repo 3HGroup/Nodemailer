@@ -29,7 +29,9 @@
     "simplesmtp": "~0.2 || ^0.3.30",
     "directmail": "^0.1.7",
     "he": "^0.3.6",
-    "public-address": "^0.1.1"
+    "public-address": "^0.1.1",
+    "aws-sdk": "^2.0.0-rc12"
+
   },
   "devDependencies": {
     "nodeunit": "*"
