@@ -25,22 +25,22 @@
     }
   ],
   "dependencies": {
-    "mailcomposer": "^0.2.10",
-    "simplesmtp": "~0.2 || ^0.3.30",
+    "aws-sdk": "^2.4.7",
     "directmail": "^0.1.7",
-    "he": "^0.3.6",
+    "he": "^1.1.0",
+    "mailcomposer": "^3.10.0",
     "public-address": "^0.1.1",
-    "aws-sdk": "^2.0.0-rc12"
-
+    "simplesmtp": "~0.2 || ^0.3.30"
   },
   "devDependencies": {
     "nodeunit": "*"
   },
   "optionalDependencies": {
-    "readable-stream": "~1.1.9"
+    "readable-stream": "~2.1.4"
   },
   "engines": {
-    "node": ">=0.6.0"
+    "node": "~4.4.5",
+    "npm": "~2.15.5"
   },
   "keywords": [
     "e-mail",
